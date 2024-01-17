@@ -7,7 +7,3 @@ def insertion_sort(arr):
       arr[j + 1] = arr[j]
       j -= 1
     arr[j + 1] = key
-
-my_arr = [23,3,4,6,7,5,33,121,34,5,77,8]
-insertion_sort(my_arr)
-print(f"Sorted Array: {my_arr}")
