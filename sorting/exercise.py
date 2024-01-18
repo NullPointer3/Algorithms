@@ -18,7 +18,8 @@ def insertion_sort(arr):
 
 # Linear search 
 def linear_search(arr, value):
-  """An algorithm which scans through an array and returns the value you searching for"""
+  """An algorithm which scans through an array and returns 
+    the index of the value we searching for or returns none"""
   j = None
   for i in range(0, len(arr)):
     if arr[i] == value:
@@ -26,4 +27,4 @@ def linear_search(arr, value):
   return j
 
 my_arr = [2,33,4,55,4,3,22,0]
-print(linear_search(my_arr, 90))
+print(linear_search(my_arr, 22))
