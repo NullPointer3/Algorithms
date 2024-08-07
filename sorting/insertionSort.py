@@ -7,3 +7,6 @@ def insertion_sort(arr):
       arr[j + 1] = arr[j]
       j -= 1
     arr[j + 1] = key
+
+sorted = insertion_sort([1,22,11,3,44,2,11,6,0,8,99,6])
+print(sorted)
