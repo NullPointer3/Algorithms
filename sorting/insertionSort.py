@@ -1,4 +1,4 @@
-def insertion_sort(arr):
+def insertion_sort(arr: list[int]) -> list[int]:
   """An efficient algorithms for sorting a small number of elements"""
   for i in range(1, len(arr)):
     key = arr[i]

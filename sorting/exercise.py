@@ -27,7 +27,7 @@ def search(arr, val):
       index = i
   return index
 
-def selection_sort(arr):
+def selection_sort(arr: list[int]):
   """Selection sort algorithm"""
   for i in range(len(arr)):
     min = i
