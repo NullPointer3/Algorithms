@@ -11,4 +11,4 @@ def head_loop(n):
   while i <= n:
     print(i)
     i+=1
-head_loop(10)
+
