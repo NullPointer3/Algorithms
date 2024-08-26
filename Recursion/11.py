@@ -2,7 +2,7 @@
 
 ## using recursion
 ## Time Complexity O(2^n)
-def fibo_recursive(n):
+def fibo_recursive(n: int) -> int:
   if n == 0:
     return 0
   if n == 1:
@@ -13,7 +13,7 @@ def fibo_recursive(n):
 ## Using Iteration
 ## Time complexity O(n)
 ## Space complexity O(1)
-def fibo_iterative(n):
+def fibo_iterative(n: int):
   if n <= 1:
     return n
   
@@ -27,7 +27,7 @@ def fibo_iterative(n):
 ## Time Complexity O(n)
 ## Space Complexity O(n)
 
-def fibo_memo(n):
+def fibo_memo(n: int) -> int:
   memo = None
 
   if memo is None:
@@ -44,4 +44,4 @@ def fibo_memo(n):
       memo[n-1] = fibo_memo(n-1)
     return memo[n-2] + memo[n-1]
   
-print(fibo_memo(7))
+print(fibo_iterative(60))
